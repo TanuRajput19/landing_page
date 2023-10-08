@@ -1,0 +1,148 @@
+body{
+  background:  rgba(0,0,0,0.5) url("img/house6.jpg")  no-repeat;
+   background-attachment: fixed;
+     
+    background-size:cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow:hidden;
+
+      
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .logo img{
+    width:45spx;
+    height: 40px;
+    border-radius: 80px;
+    display:flex;
+    margin:20px 80px;
+  }
+  nav {
+    display: flex;
+   align-items: center;
+   margin: 0;
+   justify-content:space-between ;
+  
+   background-color: grey;
+   position:st;
+  height:80%;
+}
+
+nav ul {
+    display: flex;
+    justify-content:center;
+    
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin:0 30px;
+
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+
+}
+nav ul li a:hover {
+    color: rgb(60, 60, 112);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.wave{
+  position :absolute;
+  bottom: 0;
+  opacity: 1;
+  width:100%;
+}
+.content{
+  max-width: 40%;
+  margin:50px 60px;
+  color: #fff;
+  
+
+}
+.content h1{
+  font-size: 35px;
+  font-family:'Poppins', sans-serif;
+}
+.content p{
+  font: 18px;
+  padding:25px 0;
+  font-weight: 300;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content .btn{
+  margin-top: 25px;
+}
+.content a{
+  display: inline-block;
+  padding:10px 15px;
+  text-decoration: none;
+  
+  border-radius:60px;
+  color:#fff;
+  border:2px solid rgb(194, 133, 13);
+}
+.content .color1{
+  background:#ffc107;
+  
+}
+.content .color2{
+  background: transparent;
+  border:dashed;
+  margin:0 10px;
+  padding: 9px 13px;
+  
+}
+.content a:hover{
+   cursor: pointer;
+   font-size:1rem;
+   background-color: grey;
+}
+footer{
+  margin-top:180px;
+
+    margin-left: 50px;
+}
+.partners{
+  padding:0 85px;
+  position: absolute;
+}
+.partners h3{
+  font-size: 25px;
+  margin-bottom:0;
+}
+.partners hr{
+  border: none;
+  height:3px;
+  width:135px;
+  background-color: orange;
+}
+.partner_logo{
+  margin-top:20px;
+  margin-bottom:40px;
+ 
+}
+.partner_logo a img{
+    display: inline-block;
+    width:10%;
+    height:80px;
+    padding:5px;
+    margin-left: 80px;
+    border:1px solid #cacaca;
+    border-radius: 25px;
+    box-shadow: 0 5px 0 #cacaca;
+}
